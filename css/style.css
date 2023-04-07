@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 610px;
+    background-image: url("../images/header-bg.jpg");
+    background-size: 100%;
+    box-shadow: 0px 0px 10px 305px rgba(0, 0, 0, 0.692) inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+h1{
+    font-size: 55px;
+    font-weight: lighter;
+}
+h1 span{
+    color: #68c3a3;
+    font-weight: bold;
+}
+header p{
+    width: 45%;
+    text-align: center;
+    line-height: 30px;
+}
+.mouse{
+    width: 30px;
+    height: 55px;
+    margin-top: 40px;
+    background-color: inherit;
+    border:2px solid #fff;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.roll{
+    width: 5px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0px auto;
+    position: relative;
+    top: 5px;
+    animation: drop 1s linear 0.5s infinite;
+}
+@keyframes drop{
+    0%{
+        top: 5px;
+        opacity: 0;
+    }
+    30%{
+        top: 10px;
+        opacity: 1;
+    }
+    100%{
+        top: 25px;
+        opacity: 0;
+    }
+}
+.one{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.one i{
+    font-size: 30px;
+    color: #68c3a3;
+}
+.one div{
+    width: 30%;
+}
+.one div a{
+    color: black;
+    transition: 0.5s;
+}
+.one div a:hover{
+    color: #68c3a3;
+}
+.two{
+    width: 100%;
+    padding: 30px 0px;
+}
+.container{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    position: relative;
+    background-image: url(../images/subscribe-bg.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 10px 190px rgba(0, 0, 0, 0.801) inset;
+}
+.email{
+    width: 380px;
+    padding: 0px 0px 0px 20px;
+    font-size: 18px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin: 0px;
+}
+.sub{
+    width: 150px;
+    height: 50px;
+    margin: 0px 0px 0px -5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #68c3a3;
+    color: #fff;
+}
+.sub:hover{
+    background-color: #31c491;
+}
+.three{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+.contain{
+    width: 45%;
+}
+.contain h2{
+    font-size: 30px;
+}
+.contain p{
+    line-height: 25px;
+}
+.contain li{
+    line-height: 30px;
+}
+.contain i{
+    font-size: 15px;
+    color: #68c3a3;
+    margin-right: 20px;
+}
+form{
+    width: 50%;
+}
+form input{
+    width: 90%;
+    height: 50px;
+    display: block;
+    margin: 20px 0px;
+    padding: 0px 0px 0px 10px ;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+#message{
+    height: 100px;
+}
+.btn{
+    width: 150px;
+    height: 60px;
+    background-color: #68c3a3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #31c491;
+}
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.4);
+}
+footer a:hover{
+    color: gainsboro;
+}
+footer a i{
+    margin: 0px 10px;
+    font-size: 15px;
+}

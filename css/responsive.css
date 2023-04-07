@@ -1,0 +1,51 @@
+@media(min-width:250px)  and (max-width:1000px){
+    header{
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img{
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+    header p{
+        width: 90%;
+        line-height: 20px;
+    }
+    .mouse{
+        display: none;
+    }
+    .one{
+        display: block
+    }
+    .one div{
+        width: 70%;
+        margin:50px auto  50px;
+        text-align: center;
+    }
+    .email{
+        width: 200px;
+        font-size: 15px;
+    }
+    .sub{
+        width: 100px;
+        font-size: 15px;
+    }
+    .three{
+        flex-wrap: wrap;
+    }
+    .contain{
+        width: 90%;
+        margin: auto;
+    }
+    form{
+        width: 90%;
+    }
+    footer{
+        flex-wrap: wrap-reverse;
+    }
+}
